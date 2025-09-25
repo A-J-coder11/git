@@ -38,3 +38,42 @@ Run the test cases
 
 Then take the approval from the CR process
 Then deploy to PROD
+
+
+=============================================
+
+git init
+git branch -M main
+git remote add origin <url>
+git add . ; git commit -m "git" ; git push origin main
+
+====================================================
+
+
+
+ - git 
+  -  settings
+   -   ruleset
+    -    new ruleset
+           new branch ruleset
+          name - main-branch
+          enforcement status - Active
+          Target branches - 
+            Add Target - include by patter - Branch name pattern // give main - add inclusion
+          Rules
+            - Restrict deletions
+          Require a pull request before merging
+            - Required Approvals - // give according to the dv siz if 10 give 4
+          Block force pushes
+
+  - create
+
+==================================================
+
+creating a new branch
+  -> git checkout -b plain-dosa //plain dosa branch will be created
+
+  -> git log // will show commits done 
+  -> after some things added in the file the 
+  -> $ git log --oneline //shows in one line
+  -> git checkout main // switched to the main
