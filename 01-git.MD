@@ -73,4 +73,7 @@ git add . ; git commit -m "git" ; git push origin main
 creating a new branch
   -> git checkout -b plain-dosa //plain dosa branch will be created
 
-  -> git logs // will show commits done 
+  -> git log // will show commits done 
+  -> after some things added in the file the 
+  -> $ git log --oneline //shows in one line
+  -> git checkout main // switched to the main
